@@ -6,13 +6,12 @@ use FormRelay\Core\Initialization;
 use FormRelay\Csv\DataDispatcher\CsvDataDispatcher;
 use FormRelay\Csv\Route\CsvRoute;
 
-
 class CsvInitialization extends Initialization
 {
-    const DATA_DISPATCHERS = [
+    public const DATA_DISPATCHERS = [
         CsvDataDispatcher::class,
     ];
-    const ROUTES = [
+    public const ROUTES = [
         CsvRoute::class,
     ];
 }

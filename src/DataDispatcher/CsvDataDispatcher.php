@@ -88,5 +88,6 @@ class CsvDataDispatcher extends DataDispatcher
             $this->logger->error('Error writing CSV file on: ' . error_get_last());
             $result = false;
         }
-        return $result;    }
+        return $result;
+    }
 }

@@ -7,10 +7,10 @@ use FormRelay\Csv\DataDispatcher\CsvDataDispatcher;
 
 class CsvRoute extends Route
 {
-    const DATA_DISPATCHER_KEYWORD = 'csv';
-    const KEY_FILE = 'file';
-    const KEY_VALUE_DELIMITER = 'delimiter';
-    const KEY_VALUE_ENCLOSURE = 'enclosure';
+    public const DATA_DISPATCHER_KEYWORD = 'csv';
+    public const KEY_FILE = 'file';
+    public const KEY_VALUE_DELIMITER = 'delimiter';
+    public const KEY_VALUE_ENCLOSURE = 'enclosure';
 
     protected function getDispatcher()
     {
